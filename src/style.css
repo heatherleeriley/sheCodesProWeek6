@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 5%;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  left: 200px;
+  margin-bottom: 25px;
+}
+.currentTime {
+  position: relative;
+  left: 200px;
+  margin-bottom: 25px;
+}
+.weather-app {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  margin-left: 300px;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 25px;
+}
+.today-icon {
+  font-size: 60px;
+}
+#today-temp,
+.today-date {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.week-temp,
+.week-date {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.parcloud-icon,
+.cloud-icon,
+.rain-icon {
+  font-size: 32px;
+}
+.coded-by {
+  position: relative;
+  left: 250px;
+  font-weight: 200;
+}
+#city-form {
+  position: relative;
+  left: 500px;
+}
+input::placeholder {
+  text-align: right;
+}
